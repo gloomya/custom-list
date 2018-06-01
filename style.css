@@ -1,0 +1,83 @@
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  color: #013243;
+  background-color: #FBDE76;
+}
+.wrapper {
+  width: 80%;
+  margin: 4% auto;
+  background-color: #FFFFFF;
+  padding: 2% 4%;
+}
+.items-list{
+  background-color: #F1F1F1;
+}
+ul {
+  list-style-type: none;
+  font-size: 1.2em;
+  padding: 2%;
+}
+li {
+  padding: 2% 4%;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 1%;
+
+}
+li:first-letter{
+  text-transform: capitalize;
+}
+.done {
+  text-decoration: line-through;
+  background-color: #DFDFDF;
+
+}
+.delete {
+  display: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+.add-item {
+  width: 24%;
+  text-align: center;
+  padding: 1% 2%; 
+  border: 2px solid #535353;
+  float: right;
+}
+.delete-item {
+  background-color: #F2212D;
+  color: #FFFFFF;
+  float: right;
+  border:none;
+  padding:4px 14px;
+  font-size: 0.6em;
+}
+input[type=text], input[type=password],input[type=email], input[type=date] { 
+    border:2px solid #F1F1F1;
+    padding: 1% 2%; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 1em;
+}
+input[type=text]:focus {
+    border-color:#333;
+}
+
+button, input[type=submit], input[type=reset], input[type=button] {
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 1em;
+  background-color: #535353;
+}
+.clear-list {
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 1em;
+  background-color: #535353;
+  padding: 1% 2%;
+}
